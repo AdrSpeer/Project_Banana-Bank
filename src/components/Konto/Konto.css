@@ -1,6 +1,6 @@
 .banana img {
-  width: 2vw;
-  margin-bottom: 2vw;
+  width: 4vw;
+  margin-bottom: 4vw;
 }
 
 .banana h1 {
@@ -8,7 +8,7 @@
   padding: 1vw;
   border-radius: 15px;
   color: rgb(117, 115, 112);
-  margin-bottom: 1vw;
+  margin-bottom: 5vw;
 }
 
 .banana {
@@ -33,7 +33,7 @@
   justify-content: center;
   flex-direction: column;
   min-width: 40%;
-  gap: 1vw;
+  gap: 2vw;
 }
 .box-wrapper h3 {
   color: rgb(117, 115, 112);
@@ -71,17 +71,17 @@
   scale: 1.1;
 }
 
-/* Dark-Mode */
+/* !Dark-Mode */
 .banana-dark img {
-  width: 2vw;
-  margin-bottom: 2vw;
+  width: 4vw;
+  margin-bottom: 4vw;
 }
 .banana-dark h1 {
   background-color: rgba(35, 35, 36, 0.847);
   padding: 1vw;
   border-radius: 15px;
   color: white;
-  margin-bottom: 1vw;
+  margin-bottom: 5vw;
 }
 .banana-dark {
   background-color: #535b5e;
@@ -104,7 +104,7 @@
   justify-content: center;
   flex-direction: column;
   min-width: 40%;
-  gap: 1vw;
+  gap: 2vw;
 }
 .box-wrapper-dark h3 {
   color: white;
@@ -144,4 +144,45 @@
 }
 .box-wrapper-dark div button:hover {
   scale: 1.1;
+}
+
+@media only screen and (max-width: 768px) {
+  .banana img {
+    width: 6vw;
+    margin-bottom: 6vw;
+  }
+  .banana-dark img {
+    width: 6vw;
+    margin-bottom: 6vw;
+  }
+  .box-wrapper {
+    width: 75vw;
+    min-width: 80%;
+    gap: 5vw;
+  }
+  .box-wrapper-dark {
+    width: 75vw;
+    min-width: 80%;
+    gap: 5vw;
+  }
+  .box-wrapper input {
+    padding: 2vw;
+  }
+  .box-wrapper-dark input {
+    padding: 2vw;
+  }
+  .box-wrapper div button {
+    margin: 15px;
+    padding: 3vw;
+  }
+  .box-wrapper div button:hover {
+    scale: none;
+  }
+  .box-wrapper-dark div button {
+    margin: 15px;
+    padding: 3vw;
+  }
+  .box-wrapper-dark div button:hover {
+    scale: none;
+  }
 }
