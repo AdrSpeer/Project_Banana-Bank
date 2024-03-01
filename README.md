@@ -1,8 +1,19 @@
-# React + Vite
+# Banana Bank
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose of the website
 
-Currently, two official plugins are available:
+- Create a Bank Counter
+- Withdrawal and deposit into the bank account
+- Display of the credit balance
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built with
+
+- Flexbox Layout
+- JavaScript ES6+
+- React
+- Css
+
+## Screenshot-Image
+
+![](./public/img/scs1.png)
+![](./public/img/scs2.png)
