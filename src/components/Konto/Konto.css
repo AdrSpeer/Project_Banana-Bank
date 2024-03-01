@@ -1,6 +1,10 @@
 .banana img {
-  width: 4vw;
-  margin-bottom: 4vw;
+  width: 3vw;
+  margin-bottom: 3vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1vw;
 }
 
 .banana h1 {
@@ -25,7 +29,7 @@
 .box-wrapper {
   background-color: rgba(146, 212, 250, 0.438);
   width: 25vw;
-  padding: 1vw;
+  padding: 2vw 1vw;
   -webkit-box-shadow: 0px 0px 7px 2px #73dfff;
   box-shadow: 0px 0px 7px 2px #73dfff;
   display: flex;
@@ -73,8 +77,12 @@
 
 /* !Dark-Mode */
 .banana-dark img {
-  width: 4vw;
-  margin-bottom: 4vw;
+  width: 3vw;
+  margin-bottom: 3vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1vw;
 }
 .banana-dark h1 {
   background-color: rgba(35, 35, 36, 0.847);
@@ -96,7 +104,7 @@
 .box-wrapper-dark {
   background-color: rgba(89, 90, 91, 0.438);
   width: 25vw;
-  padding: 1vw;
+  padding: 2vw 1vw;
   -webkit-box-shadow: 0px 0px 7px 2px #f8f9fa;
   box-shadow: 0px 0px 7px 2px #f8f9fa;
   display: flex;
@@ -128,6 +136,7 @@
   max-width: 75%;
   background-color: gray;
   margin: 0.5vw;
+  color: white;
 }
 .box-wrapper-dark input::placeholder {
   color: white;
